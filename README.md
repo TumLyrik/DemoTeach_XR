@@ -39,7 +39,16 @@ The system consists of three main modules:
 ### Robot Control Layer
 - Communication with industrial robot controller
 - Execution of generated robot trajectories
+License
 
 ---
+This project is licensed under the Apache License 2.0.
+See the LICENSE file for details.
 
-## Repository Structure
+---
+Acknowledgment
+The code was developed during research conducted at the Fraunhofer Institute for Foundry, Composite and Processing Technology (IGCV) in collaboration with the Technical University of Munich (TUM).
+
+---
+Disclaimer
+This repository contains a research prototype intended for academic and experimental use. It may require further adaptation for industrial deployment.
