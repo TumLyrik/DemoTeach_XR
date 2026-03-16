@@ -1,0 +1,7 @@
+Succesfully started RDA
+[AppRemotingSubsystem] InitializeLoader
+[AppRemotingPlugin] OnSystemChange, systemId = 1
+[AppRemotingSubsystem] Initializing Remoting Connect
+[OpenXRRuntimeRestartHandler] is created for AppRemotingPlugin.
+[AppRemotingSubsystem] StartSubsystems
+Disconnected XR remoting

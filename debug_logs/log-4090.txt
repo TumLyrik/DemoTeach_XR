@@ -1,0 +1,40 @@
+The StartConnectingToPlayer() function is not supported without enabling the "Holographic Remoting remote app" feature in OpenXR project settings.
+True
+UDP Comms Initialised
+Resetted position of soldering station
+No GetDeviceLayoutName() override detected in HP Reverb G2 Controller Profile. Binding path validator for this interaction profile is not as effective. To fix, add GetDeviceLayoutName and GetInteractionProfileType override in this profile.
+QR Code Detected! Marker ID: 4E953A86BF9BF74E-8623EA766375BAA1
+QR Code Content: QRCode Tracking
+QR Code Content: QRCode Tracking
+QR Code Content: QRCode Tracking
+QR Code Content: QRCode Tracking
+QR Code Content: QRCode Tracking
+QR Code Content: QRCode Tracking
+QR Code Content: QRCode Tracking
+QR Code Content: QRCode Tracking
+QR Code Content: QRCode Tracking
+QR Code Content: QRCode Tracking
+QR Code Content: QRCode Tracking
+QR Code Content: QRCode Tracking
+QR Code Content: QRCode Tracking
+QR Code Content: QRCode Tracking
+QR Code Content: QRCode Tracking
+QR Code Content: QRCode Tracking
+QR Code Content: QRCode Tracking
+QR Code Content: QRCode Tracking
+QR Code Content: QRCode Tracking
+QR Code Content: QRCode Tracking
+QR Code Content: QRCode Tracking
+QR Code Content: QRCode Tracking
+QR Code Content: QRCode Tracking
+QR Code Content: QRCode Tracking
+QR Code Content: QRCode Tracking
+QR Code Content: QRCode Tracking
+QR Code Content: QRCode Tracking
+QR Code Detected! Marker ID: 4728159633A2F4B0-2807453805FACFA9
+QR Code Content: https://qrco.de/bbh78P
+QR Code Content: https://qrco.de/bbh78P
+QR Code Content: https://qrco.de/bbh78P
+QR Code Detected! Marker ID: 4991F0A76D3D2777-FA9FDD8AE06F2681
+The Disconnect() function is not supported without enabling the "Holographic Remoting remote app" feature in OpenXR project settings.
+Disconnected XR remoting

@@ -1,0 +1,3 @@
+Succesfully started RDA
+[AppRemotingSubsystem] StartSubsystems
+Disconnected XR remoting

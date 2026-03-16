@@ -1,0 +1,216 @@
+Succesfully started RDA
+[AppRemotingSubsystem] InitializeLoader
+[AppRemotingPlugin] OnSystemChange, systemId = 1
+[AppRemotingSubsystem] Initializing Remoting Connect
+[OpenXRRuntimeRestartHandler] is created for AppRemotingPlugin.
+2 9 7
+IndexOutOfRangeException: Index was outside the bounds of the array.
+2 9 7
+IndexOutOfRangeException: Index was outside the bounds of the array.
+[AppRemotingSubsystem] StartSubsystems
+[AppRemotingSubsystem] Cannot establish a connection to Holographic Remoting Player on the target with IP Address 169.254.77.168:8265.
+Should not be capturing when there is a hotcontrol
+2 9 7
+IndexOutOfRangeException: Index was outside the bounds of the array.
+[AppRemotingPlugin] OnInstanceDestroy, remotingState was Connect.
+2 9 7
+IndexOutOfRangeException: Index was outside the bounds of the array.
+[OpenXRRuntimeRestartHandler] AppRemotingPlugin attempts to skip restarting XR session.
+[OpenXRRuntimeRestartHandler] AppRemotingPlugin attempts to skip quitting the app after XR session is finished.
+2 9 7
+IndexOutOfRangeException: Index was outside the bounds of the array.
+2 9 7
+IndexOutOfRangeException: Index was outside the bounds of the array.
+2 9 7
+IndexOutOfRangeException: Index was outside the bounds of the array.
+2 9 7
+IndexOutOfRangeException: Index was outside the bounds of the array.
+2 9 7
+IndexOutOfRangeException: Index was outside the bounds of the array.
+2 9 7
+IndexOutOfRangeException: Index was outside the bounds of the array.
+2 9 7
+IndexOutOfRangeException: Index was outside the bounds of the array.
+2 9 7
+IndexOutOfRangeException: Index was outside the bounds of the array.
+2 9 7
+IndexOutOfRangeException: Index was outside the bounds of the array.
+2 9 7
+IndexOutOfRangeException: Index was outside the bounds of the array.
+2 9 7
+IndexOutOfRangeException: Index was outside the bounds of the array.
+2 9 7
+IndexOutOfRangeException: Index was outside the bounds of the array.
+2 9 7
+IndexOutOfRangeException: Index was outside the bounds of the array.
+2 9 7
+IndexOutOfRangeException: Index was outside the bounds of the array.
+2 9 7
+IndexOutOfRangeException: Index was outside the bounds of the array.
+2 9 7
+IndexOutOfRangeException: Index was outside the bounds of the array.
+2 9 7
+IndexOutOfRangeException: Index was outside the bounds of the array.
+2 9 7
+IndexOutOfRangeException: Index was outside the bounds of the array.
+2 9 7
+IndexOutOfRangeException: Index was outside the bounds of the array.
+2 9 7
+IndexOutOfRangeException: Index was outside the bounds of the array.
+2 9 7
+IndexOutOfRangeException: Index was outside the bounds of the array.
+2 9 7
+IndexOutOfRangeException: Index was outside the bounds of the array.
+2 9 7
+IndexOutOfRangeException: Index was outside the bounds of the array.
+2 9 7
+IndexOutOfRangeException: Index was outside the bounds of the array.
+2 9 7
+IndexOutOfRangeException: Index was outside the bounds of the array.
+2 9 7
+IndexOutOfRangeException: Index was outside the bounds of the array.
+2 9 7
+IndexOutOfRangeException: Index was outside the bounds of the array.
+2 9 7
+IndexOutOfRangeException: Index was outside the bounds of the array.
+2 9 7
+IndexOutOfRangeException: Index was outside the bounds of the array.
+2 9 7
+IndexOutOfRangeException: Index was outside the bounds of the array.
+2 9 7
+IndexOutOfRangeException: Index was outside the bounds of the array.
+2 9 7
+IndexOutOfRangeException: Index was outside the bounds of the array.
+2 9 7
+IndexOutOfRangeException: Index was outside the bounds of the array.
+2 9 7
+IndexOutOfRangeException: Index was outside the bounds of the array.
+2 9 7
+IndexOutOfRangeException: Index was outside the bounds of the array.
+2 9 7
+IndexOutOfRangeException: Index was outside the bounds of the array.
+2 9 7
+IndexOutOfRangeException: Index was outside the bounds of the array.
+2 9 7
+IndexOutOfRangeException: Index was outside the bounds of the array.
+2 9 7
+IndexOutOfRangeException: Index was outside the bounds of the array.
+2 9 7
+IndexOutOfRangeException: Index was outside the bounds of the array.
+2 9 7
+IndexOutOfRangeException: Index was outside the bounds of the array.
+2 9 7
+IndexOutOfRangeException: Index was outside the bounds of the array.
+2 9 7
+IndexOutOfRangeException: Index was outside the bounds of the array.
+2 9 7
+IndexOutOfRangeException: Index was outside the bounds of the array.
+2 9 7
+IndexOutOfRangeException: Index was outside the bounds of the array.
+2 9 7
+IndexOutOfRangeException: Index was outside the bounds of the array.
+2 9 7
+IndexOutOfRangeException: Index was outside the bounds of the array.
+2 9 7
+IndexOutOfRangeException: Index was outside the bounds of the array.
+2 9 7
+IndexOutOfRangeException: Index was outside the bounds of the array.
+2 9 7
+IndexOutOfRangeException: Index was outside the bounds of the array.
+2 9 7
+IndexOutOfRangeException: Index was outside the bounds of the array.
+2 9 7
+IndexOutOfRangeException: Index was outside the bounds of the array.
+2 9 7
+IndexOutOfRangeException: Index was outside the bounds of the array.
+2 9 7
+IndexOutOfRangeException: Index was outside the bounds of the array.
+2 9 7
+IndexOutOfRangeException: Index was outside the bounds of the array.
+2 9 7
+IndexOutOfRangeException: Index was outside the bounds of the array.
+2 9 7
+IndexOutOfRangeException: Index was outside the bounds of the array.
+2 9 7
+IndexOutOfRangeException: Index was outside the bounds of the array.
+2 9 7
+IndexOutOfRangeException: Index was outside the bounds of the array.
+2 9 7
+IndexOutOfRangeException: Index was outside the bounds of the array.
+2 9 7
+IndexOutOfRangeException: Index was outside the bounds of the array.
+2 9 7
+IndexOutOfRangeException: Index was outside the bounds of the array.
+2 9 7
+IndexOutOfRangeException: Index was outside the bounds of the array.
+2 9 7
+IndexOutOfRangeException: Index was outside the bounds of the array.
+2 9 7
+IndexOutOfRangeException: Index was outside the bounds of the array.
+2 9 7
+IndexOutOfRangeException: Index was outside the bounds of the array.
+2 9 7
+IndexOutOfRangeException: Index was outside the bounds of the array.
+2 9 7
+IndexOutOfRangeException: Index was outside the bounds of the array.
+2 9 7
+IndexOutOfRangeException: Index was outside the bounds of the array.
+2 9 7
+IndexOutOfRangeException: Index was outside the bounds of the array.
+2 9 7
+IndexOutOfRangeException: Index was outside the bounds of the array.
+2 9 7
+IndexOutOfRangeException: Index was outside the bounds of the array.
+2 9 7
+IndexOutOfRangeException: Index was outside the bounds of the array.
+2 9 7
+IndexOutOfRangeException: Index was outside the bounds of the array.
+2 9 7
+IndexOutOfRangeException: Index was outside the bounds of the array.
+2 9 7
+IndexOutOfRangeException: Index was outside the bounds of the array.
+2 9 7
+IndexOutOfRangeException: Index was outside the bounds of the array.
+2 9 7
+IndexOutOfRangeException: Index was outside the bounds of the array.
+2 9 7
+IndexOutOfRangeException: Index was outside the bounds of the array.
+2 9 7
+IndexOutOfRangeException: Index was outside the bounds of the array.
+2 9 7
+IndexOutOfRangeException: Index was outside the bounds of the array.
+2 9 7
+IndexOutOfRangeException: Index was outside the bounds of the array.
+2 9 7
+IndexOutOfRangeException: Index was outside the bounds of the array.
+2 9 7
+IndexOutOfRangeException: Index was outside the bounds of the array.
+2 9 7
+IndexOutOfRangeException: Index was outside the bounds of the array.
+2 9 7
+IndexOutOfRangeException: Index was outside the bounds of the array.
+2 9 7
+IndexOutOfRangeException: Index was outside the bounds of the array.
+2 9 7
+IndexOutOfRangeException: Index was outside the bounds of the array.
+2 9 7
+IndexOutOfRangeException: Index was outside the bounds of the array.
+2 9 7
+IndexOutOfRangeException: Index was outside the bounds of the array.
+2 9 7
+IndexOutOfRangeException: Index was outside the bounds of the array.
+2 9 7
+IndexOutOfRangeException: Index was outside the bounds of the array.
+2 9 7
+IndexOutOfRangeException: Index was outside the bounds of the array.
+2 9 7
+IndexOutOfRangeException: Index was outside the bounds of the array.
+2 9 7
+IndexOutOfRangeException: Index was outside the bounds of the array.
+2 9 7
+IndexOutOfRangeException: Index was outside the bounds of the array.
+2 9 7
+IndexOutOfRangeException: Index was outside the bounds of the array.
+2 9 7
+IndexOutOfRangeException: Index was outside the bounds of the array.
+Disconnected XR remoting

@@ -1,0 +1,58 @@
+True
+UDP Comms Initialised
+The StartConnectingToPlayer() function is not supported in PlayMode Remoting.
+Resetted position of soldering station
+No GetDeviceLayoutName() override detected in HP Reverb G2 Controller Profile. Binding path validator for this interaction profile is not as effective. To fix, add GetDeviceLayoutName and GetInteractionProfileType override in this profile.
+[AppRemotingSubsystem] InitializeLoader
+No GetDeviceLayoutName() override detected in HP Reverb G2 Controller Profile. Binding path validator for this interaction profile is not as effective. To fix, add GetDeviceLayoutName and GetInteractionProfileType override in this profile.
+[AppRemotingSubsystem] Initializing Remoting Connect
+[AppRemotingPlugin] OnSystemChange, systemId = 1
+[AppRemotingSubsystem] Initializing Remoting Connect
+[OpenXRRuntimeRestartHandler] is created for AppRemotingPlugin.
+[AppRemotingSubsystem] StartSubsystems
+OptitrackStreamingClient: Receiving streaming data from the server.
+Stop trail!
+Stop trail!
+Stop trail!
+Stop trail!
+Stop trail!
+Clear trail!
+Clear trail!
+Clear trail!
+Clear trail!
+Clear trail!
+Clear trail!
+Clear trail!
+Clear trail!
+Clear trail!
+Clear trail!
+Clear trail!
+Clear trail!
+Clear trail!
+Clear trail!
+Clear trail!
+Clear trail!
+Clear trail!
+Clear trail!
+Clear trail!
+Clear trail!
+Clear trail!
+Clear trail!
+Clear trail!
+Clear trail!
+Clear trail!
+Clear trail!
+Clear trail!
+Clear trail!
+Clear trail!
+Clear trail!
+Clear trail!
+Clear trail!
+Clear trail!
+Clear trail!
+Clear trail!
+Clear trail!
+Clear trail!
+Clear trail!
+Clear trail!
+Clear trail!

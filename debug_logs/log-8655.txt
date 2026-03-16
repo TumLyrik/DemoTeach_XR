@@ -1,0 +1,8 @@
+Reading from rda module azure_rda_bytes
+Succesfully started RDA
+[AppRemotingSubsystem] InitializeLoader
+[AppRemotingPlugin] OnSystemChange, systemId = 1
+[AppRemotingSubsystem] Initializing Remoting Connect
+[OpenXRRuntimeRestartHandler] is created for AppRemotingPlugin.
+[AppRemotingSubsystem] StartSubsystems
+Disconnected XR remoting

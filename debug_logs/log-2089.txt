@@ -1,0 +1,26 @@
+Reading from rda module azure_rda_bytes
+Succesfully started RDA
+[AppRemotingSubsystem] InitializeLoader
+[AppRemotingPlugin] OnSystemChange, systemId = 1
+[AppRemotingSubsystem] Initializing Remoting Connect
+[OpenXRRuntimeRestartHandler] is created for AppRemotingPlugin.
+[AppRemotingSubsystem] StartSubsystems
+Tracking origin unable to be set.
+Failed to calculate boundary bounds.
+NullReferenceException: Object reference not set to an instance of an object
+NullReferenceException: Object reference not set to an instance of an object
+NullReferenceException: Object reference not set to an instance of an object
+NullReferenceException: Object reference not set to an instance of an object
+NullReferenceException: Object reference not set to an instance of an object
+NullReferenceException: Object reference not set to an instance of an object
+NullReferenceException: Object reference not set to an instance of an object
+NullReferenceException: Object reference not set to an instance of an object
+NullReferenceException: Object reference not set to an instance of an object
+NullReferenceException: Object reference not set to an instance of an object
+NullReferenceException: Object reference not set to an instance of an object
+NullReferenceException: Object reference not set to an instance of an object
+NullReferenceException: Object reference not set to an instance of an object
+NullReferenceException: Object reference not set to an instance of an object
+NullReferenceException: Object reference not set to an instance of an object
+NullReferenceException: Object reference not set to an instance of an object
+Disconnected XR remoting

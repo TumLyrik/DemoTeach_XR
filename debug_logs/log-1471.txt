@@ -1,0 +1,17 @@
+No RDA found: rdamixedclient assembly:<unknown assembly> type:<unknown type> member:(null)
+[AppRemotingSubsystem] Cannot disconnect when the remoting connection is not in progress.
+[AppRemotingSubsystem] StartSubsystems
+[AppRemotingSubsystem] Cannot establish a connection to Holographic Remoting Player on the target with IP Address 169.254.141.190:8265.
+[AppRemotingSubsystem] StopSubsystems
+[AppRemotingPlugin] OnInstanceDestroy, remotingState was Connect.
+[AppRemotingSubsystem] DeinitializeLoader
+Call to DeinitializeLoader without an initialized manager.Please make sure wait for initialization to complete before calling this API.
+[AppRemotingPlugin] OnSystemChange, systemId = 1
+[AppRemotingSubsystem] Initializing Remoting Connect
+[OpenXRRuntimeRestartHandler] is created for AppRemotingPlugin.
+OpenXRLoader restart successful.
+The Holographic Remoting Player app has a mismatched version on the remote host 169.254.141.190:8265. Please update the Player app on your headset and try again.
+[AppRemotingPlugin] OnInstanceDestroy, remotingState was Connect.
+[OpenXRRuntimeRestartHandler] AppRemotingPlugin attempts to skip restarting XR session.
+[OpenXRRuntimeRestartHandler] AppRemotingPlugin attempts to skip quitting the app after XR session is finished.
+Disconnected XR remoting

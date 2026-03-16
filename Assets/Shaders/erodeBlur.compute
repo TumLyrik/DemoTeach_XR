@@ -1,0 +1,252 @@
+﻿// Each #kernel tells which function to compile; you can have many kernels
+#pragma kernel Erode
+#pragma kernel ErodeFull
+#pragma kernel CopyRGBToOutput
+#pragma kernel Blur
+
+// Create a RenderTexture with enableRandomWrite flag and set it
+// with cs.SetTexture
+RWTexture2D<float4> Result;
+Texture2D<float4> In;
+
+int height;
+int width;
+
+bool isBlack(float4 input)
+{
+	return ((input.x + input.y + input.z) < 0.05f);
+}
+
+[numthreads(8,8,1)]
+void Erode (uint3 id : SV_DispatchThreadID)
+{
+	// Depth pixel location
+	uint2 workingID = id.xy + uint3(0, height, 0);
+
+	// This pixel
+	if (isBlack(In[workingID]))
+	{
+		Result[workingID] = float4(0, 0, 0, 0);
+		return;
+	}
+
+	// Is border?
+	if (id.x == 0 || id.y == 0 || id.x >= width || id.y >= height)
+	{
+		Result[workingID] = float4(0, 0, 0, 0);
+		return;
+	}
+
+	// Horizontal / vertical
+	if (isBlack(In[workingID - uint3(0, 1, 0)]) || isBlack(In[workingID + uint3(0, 1, 0)]) || isBlack(In[workingID - uint3(1, 0, 0)]) || isBlack(In[workingID + uint3(1, 0, 0)]))
+	{
+		Result[workingID] = float4(0, 0, 0, 255);
+		return;
+	}
+
+	// Not eroded, copy pixel from In
+	Result[workingID] = In[id.xy + uint3(0, height, 0)];
+}
+
+bool isBlackUint16(int input)
+{
+    return (input < 0.05f);
+}
+
+[numthreads(16, 16, 1)]
+void ErodeFull(uint3 id : SV_DispatchThreadID)
+{
+	// Depth pixel location
+	uint2 workingID = id.xy;
+
+	// This pixel
+	if (isBlack(In[workingID]))
+	{
+		Result[workingID] = float4(0, 0, 0, 0);
+		return;
+	}
+
+	// Is border?
+	if (id.x == 0 || id.y == 0 || id.x == width || id.y == height)
+	{
+		Result[workingID] = float4(0, 0, 0, 0);
+		return;
+	}
+
+	// Horizontal / vertical
+	if (isBlack(In[workingID - uint3(0, 1, 0)]) || isBlack(In[workingID + uint3(0, 1, 0)]) || isBlack(In[workingID - uint3(1, 0, 0)]) || isBlack(In[workingID + uint3(1, 0, 0)]))
+	{
+		Result[workingID] = float4(0, 0, 0, 255);
+		return;
+	}
+
+	// Diagonal
+	if (isBlack(In[workingID + uint3(1, 1, 0)]) || isBlack(In[workingID + uint3(-1, 1, 0)]) || isBlack(In[workingID + uint3(1, -1, 0)]) || isBlack(In[workingID + uint3(-1, -1, 0)]))
+	{
+		Result[workingID] = float4(0, 0, 0, 255);
+		return;
+	}
+
+
+	// Not eroded, copy pixel from In
+    Result[id.xy] = In[id.xy];
+}
+
+void ErodeFullUint16(uint3 id : SV_DispatchThreadID)
+{
+	// Depth pixel location
+    uint2 workingID = id.xy;
+
+	// This pixel
+    if (isBlackUint16(In[workingID]))
+    {
+        Result[workingID] = 0;
+        return;
+    }
+
+	// Is border?
+    if (id.x == 0 || id.y == 0 || id.x == width || id.y == height)
+    {
+        Result[workingID] = 0;
+        return;
+    }
+
+	// Horizontal / vertical
+    if (isBlackUint16(In[workingID - uint3(0, 1, 0)]) || isBlackUint16(In[workingID + uint3(0, 1, 0)]) || isBlackUint16(In[workingID - uint3(1, 0, 0)]) || isBlackUint16(In[workingID + uint3(1, 0, 0)]))
+    {
+        Result[workingID] = 255;
+        return;
+    }
+
+	// Diagonal
+    if (isBlackUint16(In[workingID + uint3(1, 1, 0)]) || isBlackUint16(In[workingID + uint3(-1, 1, 0)]) || isBlackUint16(In[workingID + uint3(1, -1, 0)]) || isBlackUint16(In[workingID + uint3(-1, -1, 0)]))
+    {
+        Result[workingID] = 255;
+        return;
+    }
+
+
+	// Not eroded, copy pixel from In
+    Result[id.xy] = In[id.xy];
+}
+
+bool isNeighbourClose(float4 input, float4 neighbour)
+{
+	float In = input.x + input.y + input.z + input.w;
+	float Neigh = neighbour.x + neighbour.y + neighbour.z + neighbour.w;
+
+	if (Neigh > 0.4f && abs(In - Neigh) < 0.2f) return true;
+	return false;
+}
+
+[numthreads(16, 16, 1)]
+void Blur(uint3 id : SV_DispatchThreadID)
+{
+	// Depth pixel location
+	uint2 workingID = id.xy + uint3(0, height, 0);
+
+
+	// This pixel
+	if (isBlack(Result[workingID]))
+	{
+		//Result[workingID] = int4(2147483647, 0, 0, 2147483647);
+		return;
+	}
+
+	// Is border?
+	if (id.x == 0 || id.y == 0 || id.x >= width || id.y >= height)
+	{
+		return;
+	}
+
+	float4 thisValue = Result[workingID];
+
+	int numNeighbours = 0;
+	float4 neighboursTotal = float4(0,0,0,0);
+
+	// Horizontal
+	float4 left = Result[workingID - uint2(1, 0)];
+	if (isNeighbourClose(thisValue, left))
+	{
+		numNeighbours++;
+		neighboursTotal += left;
+	}
+
+	float4 right = Result[workingID + uint2(1,0)];
+	if (isNeighbourClose(thisValue, right))
+	{
+		numNeighbours++;
+		neighboursTotal += right;
+	}
+
+	// Vertical
+	float4 top = Result[workingID - uint2(0, 1)];
+	if (isNeighbourClose(thisValue, top))
+	{
+		numNeighbours++;
+		neighboursTotal += top;
+	}
+
+	float4 bot = Result[workingID + uint2(0, 1)];
+	if (isNeighbourClose(thisValue, bot))
+	{
+		numNeighbours++;
+		neighboursTotal += bot;
+	}
+
+	// Diagonal
+	float4 TL = Result[workingID + uint2(-1, -1)];
+	if (isNeighbourClose(thisValue, TL))
+	{
+		numNeighbours++;
+		neighboursTotal += TL;
+	}
+
+	float4 TR = Result[workingID + uint2(-1, 1)];
+	if (isNeighbourClose(thisValue, TR))
+	{
+		numNeighbours++;
+		neighboursTotal += TR;
+	}
+
+	float4 BL = Result[workingID + uint2(1, -1)];
+	if (isNeighbourClose(thisValue, BL))
+	{
+		numNeighbours++;
+		neighboursTotal += BL;
+	}
+
+	float4 BR = Result[workingID + uint2(1, 1)];
+	if (isNeighbourClose(thisValue, BR))
+	{
+		numNeighbours++;
+		neighboursTotal += BR;
+	}
+
+	if (numNeighbours == 0)
+	{
+		//Result[workingID] = float4(1, 0, 0, 1);
+		return;
+	}
+	/*else
+	{
+		Result[workingID] = float4(0, 0, 1, 1);
+		return;
+	}*/
+
+	float4 newValue = (neighboursTotal + thisValue + thisValue) / (numNeighbours + 2);
+
+	Result[workingID] = newValue;
+}
+
+
+
+[numthreads(128, 1, 1)]
+void CopyRGBToOutput(uint3 id : SV_DispatchThreadID)
+{
+	Result[id.xy] = In[id.xy];
+
+	//Result[id.xy] = uint4(255, 0, 0, 255);
+
+	//if(In[id.xy].x > 0.1f) Result[id.xy] = float4(1,0,0,1);
+}

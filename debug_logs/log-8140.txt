@@ -1,0 +1,32 @@
+Reading from rda module azure_rda_bytes
+Succesfully started RDA
+[AppRemotingSubsystem] StartSubsystems
+[AppRemotingSubsystem] Cannot establish a connection to Holographic Remoting Player on the target with IP Address 169.254.141.190:8265.
+[AppRemotingPlugin] OnInstanceDestroy, remotingState was Connect.
+[AppRemotingPlugin] OnSystemChange, systemId = 1
+[AppRemotingSubsystem] Initializing Remoting Connect
+[OpenXRRuntimeRestartHandler] is created for AppRemotingPlugin.
+OpenXRLoader restart successful.
+[AppRemotingSubsystem] Cannot establish a connection to Holographic Remoting Player on the target with IP Address 169.254.141.190:8265.
+[AppRemotingPlugin] OnInstanceDestroy, remotingState was Connect.
+[OpenXRRuntimeRestartHandler] AppRemotingPlugin attempts to skip restarting XR session.
+[OpenXRRuntimeRestartHandler] AppRemotingPlugin attempts to skip quitting the app after XR session is finished.
+Script 'Packages/com.tno.pointcloudtovfx/Runtime/Scripts/VFXRendering/VFXPointcloud.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+NullReferenceException: Object reference not set to an instance of an object
+NullReferenceException: Object reference not set to an instance of an object
+[AppRemotingSubsystem] Cannot disconnect when the remoting connection is not in progress.
+Disconnected XR remoting
+The StartConnectingToPlayer() function is not supported in PlayMode Remoting.
+Resetted position of soldering station
+No GetDeviceLayoutName() override detected in HP Reverb G2 Controller Profile. Binding path validator for this interaction profile is not as effective. To fix, add GetDeviceLayoutName and GetInteractionProfileType override in this profile.
+[AppRemotingSubsystem] InitializeLoader
+No GetDeviceLayoutName() override detected in HP Reverb G2 Controller Profile. Binding path validator for this interaction profile is not as effective. To fix, add GetDeviceLayoutName and GetInteractionProfileType override in this profile.
+[AppRemotingSubsystem] Initializing Remoting Connect
+[AppRemotingPlugin] OnSystemChange, systemId = 1
+[AppRemotingSubsystem] Initializing Remoting Connect
+[OpenXRRuntimeRestartHandler] is created for AppRemotingPlugin.
+[AppRemotingSubsystem] StartSubsystems
+OptitrackStreamingClient: Receiving streaming data from the server.
+Shutting down OpenXR.
+[AppRemotingPlugin] OnInstanceDestroy, remotingState was Connect.
+[OpenXRRuntimeRestartHandler] AppRemotingPlugin attempts to skip quitting the app after XR session is finished.

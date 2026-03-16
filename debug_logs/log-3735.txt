@@ -1,0 +1,8 @@
+The StartConnectingToPlayer() function is not supported in PlayMode Remoting.
+Resetted position of soldering station
+[AppRemotingSubsystem] StopSubsystems
+[AppRemotingPlugin] OnInstanceDestroy, remotingState was Idle.
+[AppRemotingSubsystem] DeinitializeLoader
+No GetDeviceLayoutName() override detected in HP Reverb G2 Controller Profile. Binding path validator for this interaction profile is not as effective. To fix, add GetDeviceLayoutName and GetInteractionProfileType override in this profile.
+The Disconnect() function is not supported in PlayMode Remoting.
+Disconnected XR remoting

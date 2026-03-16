@@ -1,0 +1,32 @@
+True
+UDP Comms Initialised
+The StartConnectingToPlayer() function is not supported without enabling the "Holographic Remoting remote app" feature in OpenXR project settings.
+Resetted position of soldering station
+No GetDeviceLayoutName() override detected in HP Reverb G2 Controller Profile. Binding path validator for this interaction profile is not as effective. To fix, add GetDeviceLayoutName and GetInteractionProfileType override in this profile.
+Stop trail!
+Stop trail!
+Stop trail!
+Stop trail!
+Stop trail!
+Stop trail!
+Stop trail!
+Stop trail!
+Stop trail!
+Stop trail!
+Stop trail!
+Stop trail!
+Stop trail!
+Stop trail!
+Stop trail!
+Stop trail!
+Stop trail!
+Stop trail!
+Stop trail!
+Stop trail!
+Stop trail!
+Stop trail!
+Stop trail!
+Stop trail!
+Stop trail!
+The Disconnect() function is not supported without enabling the "Holographic Remoting remote app" feature in OpenXR project settings.
+Disconnected XR remoting

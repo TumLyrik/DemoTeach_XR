@@ -1,0 +1,17 @@
+Succesfully started RDA
+[AppRemotingSubsystem] InitializeLoader
+[AppRemotingPlugin] OnSystemChange, systemId = 1
+[AppRemotingSubsystem] Initializing Remoting Connect
+[OpenXRRuntimeRestartHandler] is created for AppRemotingPlugin.
+1
+
+Could not parse attributes: Input string was not in a correct format.
+InvalidCastException: Specified cast is not valid.
+[AppRemotingSubsystem] StartSubsystems
+[AppRemotingSubsystem] Cannot establish a connection to Holographic Remoting Player on the target with IP Address 169.254.77.168:8265.
+[AppRemotingPlugin] OnInstanceDestroy, remotingState was Connect.
+[OpenXRRuntimeRestartHandler] AppRemotingPlugin attempts to skip restarting XR session.
+[OpenXRRuntimeRestartHandler] AppRemotingPlugin attempts to skip quitting the app after XR session is finished.
+Script 'Packages/com.tno.pointcloudtovfx/Runtime/Scripts/VFXRendering/VFXPointcloud.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+[AppRemotingSubsystem] Cannot disconnect when the remoting connection is not in progress.
+Disconnected XR remoting

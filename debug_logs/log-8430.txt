@@ -1,0 +1,12 @@
+Unable to read pointcloud positions from file
+Succesfully started RDA
+[AppRemotingSubsystem] StartSubsystems
+[AppRemotingSubsystem] Cannot establish a connection to Holographic Remoting Player on the target with IP Address 169.254.77.168:8265.
+[AppRemotingPlugin] OnInstanceDestroy, remotingState was Connect.
+[AppRemotingPlugin] OnSystemChange, systemId = 1
+[AppRemotingSubsystem] Initializing Remoting Connect
+[OpenXRRuntimeRestartHandler] is created for AppRemotingPlugin.
+OpenXRLoader restart successful.
+[AppRemotingSubsystem] Cannot establish a connection to Holographic Remoting Player on the target with IP Address 169.254.77.168:8265.
+[AppRemotingPlugin] OnInstanceDestroy, remotingState was Connect.
+Disconnected XR remoting

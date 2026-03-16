@@ -1,0 +1,3 @@
+False
+Resetted position of soldering station
+[AppRemotingSubsystem] StartSubsystems

@@ -1,0 +1,8 @@
+No RDA found: rdamixedclient assembly:<unknown assembly> type:<unknown type> member:(null)
+[AppRemotingSubsystem] Cannot disconnect when the remoting connection is not in progress.
+[AppRemotingSubsystem] InitializeLoader
+[AppRemotingPlugin] OnSystemChange, systemId = 1
+[AppRemotingSubsystem] Initializing Remoting Connect
+[OpenXRRuntimeRestartHandler] is created for AppRemotingPlugin.
+[AppRemotingSubsystem] StartSubsystems
+Disconnected XR remoting

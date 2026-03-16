@@ -1,0 +1,5 @@
+Succesfully started RDA
+[AppRemotingSubsystem] StartSubsystems
+UnassignedReferenceException: The variable imageRenderer of VFXPointcloud has not been assigned.
+You probably need to assign the imageRenderer variable of the VFXPointcloud script in the inspector.
+Disconnected XR remoting

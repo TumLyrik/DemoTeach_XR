@@ -1,0 +1,35 @@
+The StartConnectingToPlayer() function is not supported without enabling the "Holographic Remoting remote app" feature in OpenXR project settings.
+UDP Comms Initialised
+Resetted position of soldering station
+No GetDeviceLayoutName() override detected in HP Reverb G2 Controller Profile. Binding path validator for this interaction profile is not as effective. To fix, add GetDeviceLayoutName and GetInteractionProfileType override in this profile.
+QR Code Detected! Marker ID: 4CE46BD3E7DECD91-56033F20159251A1
+QR Code Content: QRCode Tracking
+QR Code Content: QRCode Tracking
+QR Code Content: QRCode Tracking
+QR Code Content: QRCode Tracking
+QR Code Content: QRCode Tracking
+QR Code Content: QRCode Tracking
+QR Code Content: QRCode Tracking
+QR Code Content: QRCode Tracking
+QR Code Content: QRCode Tracking
+QR Code Content: QRCode Tracking
+QR Code Content: QRCode Tracking
+QR Code Content: QRCode Tracking
+QR Code Content: QRCode Tracking
+QR Code Content: QRCode Tracking
+QR Code Content: QRCode Tracking
+QR Code Content: QRCode Tracking
+QR Code Content: QRCode Tracking
+QR Code Content: QRCode Tracking
+QR Code Content: QRCode Tracking
+QR Code Content: QRCode Tracking
+QR Code Content: QRCode Tracking
+QR Code Content: QRCode Tracking
+QR Code Content: QRCode Tracking
+QR Code Content: QRCode Tracking
+QR Code Content: QRCode Tracking
+QR Code Content: QRCode Tracking
+QR Code Content: QRCode Tracking
+QR Code Content: QRCode Tracking
+The Disconnect() function is not supported without enabling the "Holographic Remoting remote app" feature in OpenXR project settings.
+Disconnected XR remoting

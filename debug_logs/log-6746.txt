@@ -1,0 +1,8 @@
+No RDA found: rdamixedclient assembly:<unknown assembly> type:<unknown type> member:(null)
+[AppRemotingSubsystem] Cannot disconnect when the remoting connection is not in progress.
+[AppRemotingSubsystem] StartSubsystems
+[AppRemotingSubsystem] Cannot establish a connection to Holographic Remoting Player on the target with IP Address 169.254.141.190:8265.
+[AppRemotingSubsystem] StopSubsystems
+[AppRemotingPlugin] OnInstanceDestroy, remotingState was Connect.
+[AppRemotingSubsystem] DeinitializeLoader
+Disconnected XR remoting

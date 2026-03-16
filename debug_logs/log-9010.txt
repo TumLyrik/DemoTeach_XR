@@ -1,0 +1,21 @@
+False
+The StartConnectingToPlayer() function is not supported in PlayMode Remoting.
+Succesfully started RDA
+Resetted position of soldering station
+EntryPointNotFoundException: rda_error assembly:<unknown assembly> type:<unknown type> member:(null)
+EntryPointNotFoundException: rda_error assembly:<unknown assembly> type:<unknown type> member:(null)
+[AppRemotingSubsystem] InitializeLoader
+[AppRemotingSubsystem] Initializing Remoting Connect
+[AppRemotingPlugin] OnSystemChange, systemId = 1
+[AppRemotingSubsystem] Initializing Remoting Connect
+[OpenXRRuntimeRestartHandler] is created for AppRemotingPlugin.
+EntryPointNotFoundException: rda_error assembly:<unknown assembly> type:<unknown type> member:(null)
+EntryPointNotFoundException: rda_error assembly:<unknown assembly> type:<unknown type> member:(null)
+[AppRemotingSubsystem] StartSubsystems
+[AppRemotingSubsystem] Cannot establish a connection to Holographic Remoting Player on the target with IP Address :8265.
+[AppRemotingSubsystem] Cannot establish a connection to Holographic Remoting Player on the target with IP Address :8265.
+[AppRemotingSubsystem] StopSubsystems
+[AppRemotingPlugin] OnInstanceDestroy, remotingState was Connect.
+[AppRemotingSubsystem] DeinitializeLoader
+The Disconnect() function is not supported in PlayMode Remoting.
+Disconnected XR remoting

@@ -1,0 +1,15 @@
+False
+Succesfully started RDA
+[AppRemotingSubsystem] StartSubsystems
+[AppRemotingSubsystem] Cannot establish a connection to Holographic Remoting Player on the target with IP Address 169.254.136.129:8265.
+[AppRemotingPlugin] OnInstanceDestroy, remotingState was Connect.
+[AppRemotingPlugin] OnSystemChange, systemId = 1
+[AppRemotingSubsystem] Initializing Remoting Connect
+[OpenXRRuntimeRestartHandler] is created for AppRemotingPlugin.
+OpenXRLoader restart successful.
+[AppRemotingSubsystem] Cannot establish a connection to Holographic Remoting Player on the target with IP Address 169.254.136.129:8265.
+[AppRemotingPlugin] OnInstanceDestroy, remotingState was Connect.
+[OpenXRRuntimeRestartHandler] AppRemotingPlugin attempts to skip restarting XR session.
+[OpenXRRuntimeRestartHandler] AppRemotingPlugin attempts to skip quitting the app after XR session is finished.
+Should not be capturing when there is a hotcontrol
+Disconnected XR remoting

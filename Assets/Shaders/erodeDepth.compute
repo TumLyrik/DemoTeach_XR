@@ -1,0 +1,66 @@
+﻿// Each #kernel tells which function to compile; you can have many kernels
+#pragma kernel Erode
+#pragma kernel ErodeFull
+#pragma kernel CopyRGBToOutput
+#pragma kernel Blur
+
+// Create a RenderTexture with enableRandomWrite flag and set it
+// with cs.SetTexture
+RWTexture2D<float4> Result;
+Texture2D<float4> In;
+
+int height;
+int width;
+
+bool isBlack(float4 input)
+{
+    return ((input.x + input.y + input.z) < 0.05f);
+}
+
+[numthreads(16, 16, 1)]
+void ErodeFull(uint3 id : SV_DispatchThreadID)
+{
+	// Depth pixel location
+	uint2 workingID = id.xy;
+
+/*	// This pixel
+	if (isBlack(In[workingID]))
+	{
+		Result[workingID] = float4(0, 0, 0, 0);
+		return;
+	}
+
+	// Is border?
+	if (id.x == 0 || id.y == 0 || id.x == width || id.y == height)
+	{
+		Result[workingID] = float4(0, 0, 0, 0);
+		return;
+	}
+
+	// Horizontal / vertical
+	if (isBlack(In[workingID - uint3(0, 1, 0)]) || isBlack(In[workingID + uint3(0, 1, 0)]) || isBlack(In[workingID - uint3(1, 0, 0)]) || isBlack(In[workingID + uint3(1, 0, 0)]))
+	{
+		Result[workingID] = float4(0, 0, 0, 255);
+		return;
+	}
+
+	// Diagonal
+	if (isBlack(In[workingID + uint3(1, 1, 0)]) || isBlack(In[workingID + uint3(-1, 1, 0)]) || isBlack(In[workingID + uint3(1, -1, 0)]) || isBlack(In[workingID + uint3(-1, -1, 0)]))
+	{
+		Result[workingID] = float4(0, 0, 0, 255);
+		return;
+	}
+*/
+	// Not eroded, copy pixel from In
+    Result[id.xy] = In[id.xy];
+}
+
+[numthreads(128, 1, 1)]
+void CopyRGBToOutput(uint3 id : SV_DispatchThreadID)
+{
+	Result[id.xy] = In[id.xy];
+
+	//Result[id.xy] = uint4(255, 0, 0, 255);
+
+	//if(In[id.xy].x > 0.1f) Result[id.xy] = float4(1,0,0,1);
+}

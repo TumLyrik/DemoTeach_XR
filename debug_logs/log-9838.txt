@@ -1,0 +1,11 @@
+No Camera Floor Offset GameObject specified for XR Origin, using attached GameObject.
+The StartConnectingToPlayer() function is not supported without enabling the "Holographic Remoting remote app" feature in OpenXR project settings.
+UDP Comms Initialised
+Resetted position of soldering station
+No GetDeviceLayoutName() override detected in HP Reverb G2 Controller Profile. Binding path validator for this interaction profile is not as effective. To fix, add GetDeviceLayoutName and GetInteractionProfileType override in this profile.
+Assets\Scripts\ARInterface\TrailController.cs(24,26): warning CS0414: The field 'TrailController.txPort' is assigned but its value is never used
+Assets\Scripts\ARInterface\TrailController.cs(22,29): warning CS0414: The field 'TrailController.IP' is assigned but its value is never used
+Assets\Scripts\FrankaPanda_f.cs(34,11): warning CS0414: The field 'FrankaPanda_f.finger_pos' is assigned but its value is never used
+No GetDeviceLayoutName() override detected in HP Reverb G2 Controller Profile. Binding path validator for this interaction profile is not as effective. To fix, add GetDeviceLayoutName and GetInteractionProfileType override in this profile.
+The Disconnect() function is not supported without enabling the "Holographic Remoting remote app" feature in OpenXR project settings.
+Disconnected XR remoting

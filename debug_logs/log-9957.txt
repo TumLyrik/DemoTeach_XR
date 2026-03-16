@@ -1,0 +1,9 @@
+No Camera Floor Offset GameObject specified for XR Origin, using attached GameObject.
+No Main Camera is found for XR Origin, please assign the Camera field manually.
+The StartConnectingToPlayer() function is not supported without enabling the "Holographic Remoting remote app" feature in OpenXR project settings.
+UDP Comms Initialised
+Resetted position of soldering station
+NullReferenceException: Object reference not set to an instance of an object
+No GetDeviceLayoutName() override detected in HP Reverb G2 Controller Profile. Binding path validator for this interaction profile is not as effective. To fix, add GetDeviceLayoutName and GetInteractionProfileType override in this profile.
+The Disconnect() function is not supported without enabling the "Holographic Remoting remote app" feature in OpenXR project settings.
+Disconnected XR remoting

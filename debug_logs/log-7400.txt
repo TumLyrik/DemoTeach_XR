@@ -1,0 +1,11 @@
+False
+Resetted position of soldering station
+Succesfully started RDA
+[AppRemotingSubsystem] StartSubsystems
+[AppRemotingSubsystem] Cannot establish a connection to Holographic Remoting Player on the target with IP Address 169.254.136.129:8265.
+[AppRemotingPlugin] OnInstanceDestroy, remotingState was Connect.
+[AppRemotingPlugin] OnSystemChange, systemId = 1
+[AppRemotingSubsystem] Initializing Remoting Connect
+[OpenXRRuntimeRestartHandler] is created for AppRemotingPlugin.
+OpenXRLoader restart successful.
+Disconnected XR remoting
